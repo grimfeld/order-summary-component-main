@@ -12,7 +12,7 @@ body {
   display: grid;
   place-items: center;
   background-color: #e0e8ff;
-  height: 100vh;
+  height: calc(100vh - 4em);
 }
 
 main {
@@ -110,4 +110,12 @@ button:hover {
 
 #cancel:hover {
   color: #1f2f56;
+}
+
+.attribution {
+  position: absolute;
+  font-size: .8em;
+  bottom: 1em;
+  left: 50%;
+  margin-left: -170px;
 }
